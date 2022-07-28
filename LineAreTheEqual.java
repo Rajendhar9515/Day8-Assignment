@@ -7,11 +7,11 @@ public class LineAreTheEqual {
 	public static void main(String[] args) {
 		System.out.println("Welcome to Line Comparision");
 		LineAreTheEqual method = new LineAreTheEqual();
-		method.Length();
+		method.length();
 
 	}
 
-	public void Length() {
+	public void length() {
 		Double distance_a, distance_b;
 		x1 = 2; y1 = 3; x2 = 5; y2 = 6;
 		a1 = 2; b1 = 3; a2 = 5; b2 = 6;
@@ -19,6 +19,7 @@ public class LineAreTheEqual {
 		System.out.println("Calculated length1: " + distance_a);
 		distance_b = Math.sqrt(Math.pow((a2 - a1), 2) + (Math.pow((b2 - b1), 2)));
 		System.out.println("Calculated length2: " + distance_b);
+		
 		if (distance_a.equals (distance_b)) {
 			System.out.println("Lines are Equal");
 		} else {
